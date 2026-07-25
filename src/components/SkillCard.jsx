@@ -23,7 +23,7 @@ function SkillCard({ item }) {
     //       icon: "fa-solid fa-clock",
     //     }
   return (
-    <div className="group flex flex-col justify-center items-center w-99 h-60 gap-8 px-10 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-0.5">
+    <div className="group flex flex-col justify-center items-center w-99 h-60 gap-8 px-10 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-1">
         <h1 className="text-xl font-medium">{item.name}</h1>
         {/* <div className="group-hover:hidden flex flex-row justify-center items-center gap-4">
             {item.tools.map(tool => (

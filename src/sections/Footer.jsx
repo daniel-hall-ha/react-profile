@@ -1,3 +1,5 @@
+import ExternalLinkHandler from "../handlers/ExternalLinkHandler";
+
 function Footer() {
   return (
     <div className="w-screen min-h-72 flex flex-col lg:flex-row justify-between items-start lg:items-center p-12 py-6 mt-12 bg-gray-700 gap-6" id="contact">
@@ -20,23 +22,23 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-col gap-4 text-white text-base">
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("email","ha.danielhall@gmail.com")}>
             <i class="fa-solid fa-envelope"></i>
             <p>ha.danielhall@gmail.com</p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 cursor-pointer">
             <i class="fa-solid fa-address-card"></i>
             <p>Address</p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("phone","+959791686984")}>
             <i class="fa-solid fa-phone"></i>
-            <p>+95-9791686984</p>
+            <p>+959-791-686-984</p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("https://www.linkedin.com/in/ha-danielhall/")}>
             <i class="fa-brands fa-linkedin"></i>
             <p>https://www.linkedin.com/in/ha-danielhall/</p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("https://www.github.com/ha-danielhall/")}>
             <i class="fa-brands fa-github"></i>
             <p>https://www.github.com/ha-danielhall/</p>
         </div>

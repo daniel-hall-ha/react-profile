@@ -47,8 +47,9 @@
       "Configuration Management",
       "Cloud Computing"
     ],
-    "credential_url": "",
-    "credential_id": ""
+    "credential_url": "https://coursera.org/share/33a63afcda3f3ac73564e277789ac37a",
+    "credential_id": "ABCDEFGHIJKL",
+    "image_url": ""
   },
   {
     "id": 2,
@@ -131,6 +132,7 @@
       "Responsive Web Design"
     ],
     "credential_url": "",
-    "credential_id": ""
+    "credential_id": "",
+    "image_url": ""
   }
 ]

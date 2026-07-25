@@ -7,12 +7,14 @@
     "status": "Ongoing",
     "transcript": {
       "year_1": {
-        "Online Education Strategy": 4,
-        "Introduction to Computer Science": 4
-      },
-      "latest_cgpa": "4.0/4",
-      "url": "https://transcript-url.com/check"
-    }
+        "term_1": {
+          "Online Education Strategy": 4,
+          "Introduction to Computer Science": 4
+        }
+      }
+    },
+    "latest_cgpa": "4.0/4",
+    "transcript_url": "https://transcript-url.com/check"
   },
   {
     "id": 1,
@@ -38,10 +40,10 @@
           "Discrete Structure": 3.33,
           "Programming in C++": 4
         }
-      },
-      "latest_cgpa": "3.36/4",
-      "url": "https://transcript-url.com/check"
-    }
+      }
+    },
+    "latest_cgpa": "3.36/4",
+    "transcript_url": "https://transcript-url.com/check"
   },
   {
     "id": 3,
@@ -54,9 +56,9 @@
       "Mathematics": 91,
       "Chemistry": 92,
       "Physics": 89,
-      "Biology": 95,
-      "latest_cgpa": "508/600",
-      "url": "https://transcript-url.com/check"
-    }
+      "Biology": 95
+    },
+    "latest_cgpa": "508/600",
+    "url": "https://transcript-url.com/check"
   }
 ]
