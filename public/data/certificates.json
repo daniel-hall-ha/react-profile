@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "program": "Google IT Automation with Python",
+    "courses": [
+      {
+        "name": "Crash Course on Python",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Using Python to Interact with the Operating System",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Introduction to Git and GitHub",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Troubleshooting and Debugging Techniques",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Configuration Management and the Cloud",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Automating Real-World Tasks with Python",
+        "credential_url": "",
+        "credential_id": ""
+      }
+    ],
+    "skill_set": [
+      "Python",
+      "Linux",
+      "Bash",
+      "Git",
+      "GitHub",
+      "Automation",
+      "System Administration",
+      "Troubleshooting",
+      "Debugging",
+      "Configuration Management",
+      "Cloud Computing"
+    ],
+    "credential_url": "",
+    "credential_id": ""
+  },
+  {
+    "id": 2,
+    "program": "IBM JavaScript Full Stack Developer",
+    "courses": [
+      {
+        "name": "Introduction to Software Engineering",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Introduction to HTML, CSS, & JavaScript",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Getting Started with Git and GitHub",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "JavaScript Programming Essentials",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Developing Front-End Apps with React",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Developing Back-End Apps with Node.js and Express",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Get Started with Cloud Native, DevOps, Agile, and NoSQL",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Introduction to Containers with Docker, Kubernetes & OpenShift",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Application Development using Microservices and Serverless",
+        "credential_url": "",
+        "credential_id": ""
+      },
+      {
+        "name": "Node.js & MongoDB: Developing Back-End Database Applications",
+        "credential_url": "",
+        "credential_id": ""
+      }
+    ],
+    "skill_set": [
+      "Software Engineering",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Git",
+      "GitHub",
+      "Docker",
+      "Kubernetes",
+      "OpenShift",
+      "Microservices",
+      "Serverless",
+      "Cloud Native",
+      "DevOps",
+      "Agile",
+      "NoSQL",
+      "Frontend Development",
+      "Backend Development",
+      "Full-Stack Development",
+      "Responsive Web Design"
+    ],
+    "credential_url": "",
+    "credential_id": ""
+  }
+]

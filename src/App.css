@@ -1,0 +1,15 @@
+#container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/public/background.jpg"); /* Change to your image path */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

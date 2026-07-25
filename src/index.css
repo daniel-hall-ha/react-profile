@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+* {
+  font-family: 'Avenir', sans-serif;
+  font: rgb(87, 87, 87);
+}

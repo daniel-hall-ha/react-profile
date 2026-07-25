@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Frontend",
+        "tools": [
+            {
+                "name": "HTML5",
+                "icon": "fa-brands fa-html5"
+            },
+            {
+                "name": "CSS3",
+                "icon": "fa-brands fa-css3-alt"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name": "React",
+                "icon": "fa-brands fa-react"
+            },
+            {
+                "name": "Tailwind CSS",
+                "icon": "fa-brands fa-css3-alt"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Backend",
+        "tools": [
+            {
+                "name": "Node.js",
+                "icon": "fa-brands fa-node-js"
+            },
+            {
+                "name": "Express.js",
+                "icon": "fa-solid fa-server"
+            },
+            {
+                "name": "Laravel",
+                "icon": "fa-brands fa-laravel"
+            },
+            {
+                "name": "REST API",
+                "icon": "fa-solid fa-plug"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Version Control",
+        "tools": [
+            {
+                "name": "Git",
+                "icon": "fa-brands fa-git-alt"
+            },
+            {
+                "name": "GitHub",
+                "icon": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Automation",
+        "tools": [
+            {
+                "name": "Python",
+                "icon": "fa-brands fa-python"
+            },
+            {
+                "name": "Selenium",
+                "icon": "fa-solid fa-robot"
+            },
+            {
+                "name": "Playwright",
+                "icon": "fa-solid fa-code"
+            },
+            {
+                "name": "Pandas",
+                "icon": "fa-solid fa-table"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Containerization",
+        "tools": [
+            {
+                "name": "Docker",
+                "icon": "fa-brands fa-docker"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Cloud",
+        "tools": [
+            {
+                "name": "AWS",
+                "icon": "fa-brands fa-aws"
+            },
+            {
+                "name": "GitHub Pages",
+                "icon": "fa-brands fa-github"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Languages",
+        "tools": [
+            {
+                "name": "Python",
+                "icon": "fa-brands fa-python"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "fa-brands fa-js"
+            },
+            {
+                "name": "PHP",
+                "icon": "fa-brands fa-php"
+            },
+            {
+                "name": "SQL",
+                "icon": "fa-solid fa-database"
+            },
+            {
+                "name": "Bash",
+                "icon": "fa-solid fa-terminal"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Soft Skills",
+        "tools": [
+            {
+                "name": "Problem Solving",
+                "icon": "fa-solid fa-lightbulb"
+            },
+            {
+                "name": "Communication",
+                "icon": "fa-solid fa-comments"
+            },
+            {
+                "name": "Teamwork",
+                "icon": "fa-solid fa-users"
+            },
+            {
+                "name": "Adaptability",
+                "icon": "fa-solid fa-arrows-rotate"
+            },
+            {
+                "name": "Time Management",
+                "icon": "fa-solid fa-clock"
+            }
+        ]
+    }
+]
