@@ -14,7 +14,6 @@ import { useDispatch } from "react-redux";
 function App() {
 
   const dispatch = useDispatch();
-
   useEffect(() => {
     dispatch(FetchData("skills"));
     dispatch(FetchData("education"));
@@ -25,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen text-gray-700 bg-cover bg-center">
+      <div className="w-screen h-fit text-gray-700 bg-cover bg-center dark:text-white dark:bg-gray-900">
         <NavBar />
         <Profile />
         <Skills />

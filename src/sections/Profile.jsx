@@ -1,6 +1,16 @@
+import ExternalLinkHandler from "../handlers/ExternalLinkHandler";
+function scrollingHandler() {
+  const element = document.getElementById("contact");
+  const elementPosition = element.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.scrollY - 90;
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth",
+  });
+}
 function Profile() {
   return (
-    <div className="w-11/12 h-fit py-12 m-auto" id="profile">
+    <div className="w-11/12 h-fit py-12 m-auto dark:text-white dark:bg-gray-900" id="profile">
       <div className="w-full flex flex-col md:flex-row justify-center items-center gap-12 pb-8 mt-24">
         <div className="h-84 shrink-0">
           <img
@@ -19,16 +29,24 @@ function Profile() {
             and creating impactful solutions.
           </p>
           <div className="flex flex-row gap-12">
-            <button className="px-4 py-2 bg-gray-500 text-white mt-4 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-0.5 cursor-pointer">
+            <button
+              className="px-4 py-2 bg-gray-500 text-white mt-4 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-0.5 cursor-pointer"
+              onClick={() =>
+                ExternalLinkHandler("https://github.com/daniel-hall-ha")
+              }
+            >
               View My Work
             </button>
-            <button className="px-4 py-2 bg-white-500 border border-gray-500 text-gray mt-4 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-0.5 cursor-pointer">
+            <button
+              className="px-4 py-2 bg-white-500 border border-gray-500 text-gray mt-4 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-0.5 cursor-pointer"
+              onClick={() => scrollingHandler()}
+            >
               Contact Me
             </button>
           </div>
         </div>
       </div>
-      <div className="flex flex-row flex-wrap items-center justify-between px-12 py-4 shadow-xs rounded-xl">
+      <div className="flex flex-row flex-wrap items-center justify-between px-12 py-4 shadow-xs dark:shadow-sm dark:shadow-black rounded-xl">
         <div className="flex flex-row justify-center items-center p-5 gap-5 ">
           <div className="w-12 h-12 flex justify-center rounded-2xl items-center bg-gray-400/40">
             <i className="fa-brands fa-hotjar text-3xl"></i>

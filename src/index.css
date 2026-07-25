@@ -37,3 +37,6 @@
 * {
   font-family: 'Avenir', sans-serif;
 }
+
+/* Enable class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
