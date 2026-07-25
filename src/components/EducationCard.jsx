@@ -34,7 +34,7 @@ function EducationCard({ item }) {
             <p>{item.date}</p>
           )}
       </div>
-      <div className="text-xl font-medium">{item.transcript.latest_cgpa}</div>
+      <div className="text-xl font-medium">{item.latest_cgpa}</div>
       {isEducationDetailShowed && (
         <EducationDetailsModal
           data={item}
