@@ -4,7 +4,30 @@
   font-family: 'Avenir';
   src: url('./assets/fonts/Avenir-Book.ttf') format('truetype');
   font-weight: 400;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./assets/fonts/Avenir-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./assets/fonts/Avenir-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./assets/fonts/Avenir-Heavy.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./assets/fonts/Avenir-Black.ttf') format('truetype');
+  font-weight: 900;
 }
 
 @theme {
