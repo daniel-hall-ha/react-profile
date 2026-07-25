@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Python Utility Scripts",
     "description": "A collection of Python utility scripts for log analysis, file organization, expense tracking, movie recommendations, reminder notifications, usage reporting, and weather updates.",
-    "repo_url": "",
+    "repo_url": "https://github.com/daniel-hall-ha/python-utility-scripts.git",
     "site_url": "",
     "img_url": "/test.avif"
   },
@@ -11,8 +11,8 @@
     "id": 2,
     "name": "Conference Expense Planner",
     "description": "A responsive React application built to practice component-based architecture, state management, and modern frontend development with an intuitive user interface.",
-    "repo_url": "",
-    "site_url": "https://www.planner.com",
+    "repo_url": "https://github.com/daniel-hall-ha/conference-expense-planner.git",
+    "site_url": "",
     "img_url": "/test.avif"
   }
 ]

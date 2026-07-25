@@ -94,9 +94,9 @@ function EducationDetailsModal({ data, ModalStateHandler }) {
 
   return createPortal(
     <div className="fixed inset-0 w-screen h-screen bg-gray-700/50 flex items-center justify-center">
-      <div className="w-2/3 h-2/3 flex flex-col gap-6 m-auto bg-white dark:bg-gray-900 border border-gray-600 dark:border-gray-300 rounded-lg p-8 dark:text-white">
+      <div className="w-11/12 md:w-2/3 h-2/3 flex flex-col gap-6 m-auto bg-white dark:bg-gray-900 border border-gray-600 dark:border-gray-300 rounded-lg p-8 dark:text-white">
         <div className="flex flex-row gap-6 w-full overflow-hidden">
-          <img src="" className="w-24 h-24 hidden xl:block"></img>
+          <img src={data.image_url} className="w-24 h-24 hidden xl:block"></img>
           <div className="flex flex-col gap-2 justify-evenly items-start">
             <h1 className="text-lg md:text-xl lg:text-2xl font-medium">
               {data.school_name} &nbsp;
@@ -134,7 +134,7 @@ function EducationDetailsModal({ data, ModalStateHandler }) {
             TransformData(data).map((item) => (
               <div
                 key={item.year}
-                className="w-full h-fit flex flex-col gap-4 px-4 py-2"
+                className="w-full h-fit flex flex-col gap-4 py-2"
               >
                 <h2 className="text-xl font-medium">{item.year}</h2>
                 <div className="w-full h-fit border-[0.5px] border-gray-600 rounded-lg overflow-hidden px-4 py-2 pt-4">
@@ -143,7 +143,7 @@ function EducationDetailsModal({ data, ModalStateHandler }) {
                       <h1 className="text-base font-medium">{semester.semester}</h1>
                       <div className="flex flex-col">
                         {semester.courses.map((course) => (
-                          <div className="py-2 border-b-[0.2px] border-b-gray-400/50 flex justify-between pl-4 pr-6">
+                          <div className="py-2 border-b-[0.2px] border-b-gray-400/50 flex justify-between px-2 gap-2">
                             <div>{course.course_name}</div>
                             <div>{course.grade}</div>
                           </div>

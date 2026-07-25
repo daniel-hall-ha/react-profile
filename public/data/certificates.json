@@ -5,33 +5,33 @@
     "courses": [
       {
         "name": "Crash Course on Python",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/C7F8YMX57K6V",
+        "credential_id": "C7F8YMX57K6V"
       },
       {
         "name": "Using Python to Interact with the Operating System",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/7NV7VUUQJF36",
+        "credential_id": "7NV7VUUQJF36"
       },
       {
         "name": "Introduction to Git and GitHub",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/6S2K3LHQR8RY",
+        "credential_id": "6S2K3LHQR8RY"
       },
       {
         "name": "Troubleshooting and Debugging Techniques",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/644RV6L2PE11",
+        "credential_id": "644RV6L2PE11"
       },
       {
         "name": "Configuration Management and the Cloud",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/HISBINPFZLRO",
+        "credential_id": "HISBINPFZLRO"
       },
       {
         "name": "Automating Real-World Tasks with Python",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/SGVN8GJCIA4R",
+        "credential_id": "SGVN8GJCIA4R"
       }
     ],
     "skill_set": [
@@ -47,9 +47,9 @@
       "Configuration Management",
       "Cloud Computing"
     ],
-    "credential_url": "https://coursera.org/share/33a63afcda3f3ac73564e277789ac37a",
-    "credential_id": "ABCDEFGHIJKL",
-    "image_url": ""
+    "credential_url": "https://www.coursera.org/verify/professional-cert/J3B8QJHR4E7K",
+    "credential_id": "J3B8QJHR4E7K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/3840px-Google_%22G%22_logo.svg.png"
   },
   {
     "id": 2,
@@ -57,28 +57,28 @@
     "courses": [
       {
         "name": "Introduction to Software Engineering",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/81MZIY7P20C5",
+        "credential_id": "81MZIY7P20C5"
       },
       {
         "name": "Introduction to HTML, CSS, & JavaScript",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/LCV1F97D87F4",
+        "credential_id": "LCV1F97D87F4"
       },
       {
         "name": "Getting Started with Git and GitHub",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/7KLDW02TZXE2",
+        "credential_id": "7KLDW02TZXE2"
       },
       {
         "name": "JavaScript Programming Essentials",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/DIXT1YZR6CRZ",
+        "credential_id": "DIXT1YZR6CRZ"
       },
       {
         "name": "Developing Front-End Apps with React",
-        "credential_url": "",
-        "credential_id": ""
+        "credential_url": "https://coursera.org/verify/CUHVW0F4HVDM",
+        "credential_id": "CUHVW0F4HVDM"
       },
       {
         "name": "Developing Back-End Apps with Node.js and Express",
@@ -108,6 +108,7 @@
     ],
     "skill_set": [
       "Software Engineering",
+      "Software Development Lifecycles",
       "HTML5",
       "CSS3",
       "JavaScript",
@@ -133,6 +134,6 @@
     ],
     "credential_url": "",
     "credential_id": "",
-    "image_url": ""
+    "image_url": "https://images.icon-icons.com/2699/PNG/512/ibm_logo_icon_170000.png"
   }
 ]

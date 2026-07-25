@@ -1,4 +1,4 @@
-function ExternalLinkHandler(type="url", link) {
+function ExternalLinkHandler(type = "url", link) {
     switch (type) {
         case "email":
 
@@ -6,8 +6,11 @@ function ExternalLinkHandler(type="url", link) {
         case "phone":
 
             break;
-        default:
-            window.open(link, "_blank", "noopener,noreferrer");
+        default: {
+            const opened = window.open(link, "_blank", "noopener,noreferrer");
+            if (opened)
+                opened.focus()
+        }
             break;
     }
 }

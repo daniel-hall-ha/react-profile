@@ -11,11 +11,11 @@ function PortfolioCard({ item }) {
         <p className="text-sm">{item.description}</p>
         <div className="flex flex-row w-full h-fit justify-end gap-5">
           {item.site_url && (
-            <button className="w-27 h-10 bg-gray-900" onClick={() => ExternalLinkHandler(item.site_url)}>
+            <button className="w-27 h-10 bg-gray-900" onClick={() => ExternalLinkHandler("url",item.site_url)}>
               <i className="fa-solid fa-link"></i> Site
             </button>
           )}
-          <button className="w-27 h-10 bg-gray-900" onClick={() => item.repo_url ? ExternalLinkHandler(item.repo_url) : ""}>
+          <button className="w-27 h-10 bg-gray-900" onClick={() => item.repo_url ? ExternalLinkHandler("url",item.repo_url) : ""}>
             <i className="fa-brands fa-github"></i> GitHub
           </button>
         </div>

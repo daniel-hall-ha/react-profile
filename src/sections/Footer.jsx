@@ -34,11 +34,11 @@ function Footer() {
             <i class="fa-solid fa-phone"></i>
             <p>+959-791-686-984</p>
         </div>
-        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("https://www.linkedin.com/in/ha-danielhall/")}>
+        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("url","https://www.linkedin.com/in/ha-danielhall/")}>
             <i class="fa-brands fa-linkedin"></i>
             <p>https://www.linkedin.com/in/ha-danielhall/</p>
         </div>
-        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("https://www.github.com/ha-danielhall/")}>
+        <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("url","https://www.github.com/ha-danielhall/")}>
             <i class="fa-brands fa-github"></i>
             <p>https://www.github.com/ha-danielhall/</p>
         </div>

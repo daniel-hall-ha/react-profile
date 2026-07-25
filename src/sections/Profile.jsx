@@ -32,7 +32,7 @@ function Profile() {
             <button
               className="px-4 py-2 bg-black text-white mt-4 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-0.5 cursor-pointer"
               onClick={() =>
-                ExternalLinkHandler("https://github.com/daniel-hall-ha")
+                ExternalLinkHandler("url","https://github.com/daniel-hall-ha")
               }
             >
               View My Work

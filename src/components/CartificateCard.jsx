@@ -28,7 +28,6 @@ function CertificateCard({ item }) {
         ))}
       </div>
       {isCertificateDetailShowed && <CertificateDetailsModal data={item} ModalStateHandler={certificateDetailDisplayHandler}/>}
-      
     </div>
   );
 }
