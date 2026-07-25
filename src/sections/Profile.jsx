@@ -14,7 +14,7 @@ function Profile() {
       <div className="w-full flex flex-col md:flex-row justify-center items-center gap-12 pb-8 mt-24">
         <div className="h-84 shrink-0">
           <img
-            src="/me2.png"
+            src="/me.png"
             alt="Me"
             className="h-full w-auto object-contain"
           />

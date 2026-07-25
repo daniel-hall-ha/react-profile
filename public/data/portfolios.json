@@ -5,7 +5,7 @@
     "description": "A collection of Python utility scripts for log analysis, file organization, expense tracking, movie recommendations, reminder notifications, usage reporting, and weather updates.",
     "repo_url": "",
     "site_url": "",
-    "img_url": "/test.jpg"
+    "img_url": "/test.avif"
   },
   {
     "id": 2,
@@ -13,6 +13,6 @@
     "description": "A responsive React application built to practice component-based architecture, state management, and modern frontend development with an intuitive user interface.",
     "repo_url": "",
     "site_url": "https://www.planner.com",
-    "img_url": "/test.jpg"
+    "img_url": "/test.avif"
   }
 ]
