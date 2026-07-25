@@ -42,7 +42,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-col gap-4">
-        <textarea className="border-[0.5px] border-gray-400 w-100 h-24 p-4 focus:outline-none text-white resize-none"></textarea>
+        <textarea className="border-[0.5px] border-gray-400 w-80 sm:w-100 h-24 p-4 focus:outline-none text-white resize-none"></textarea>
         <button className="bg-gray-900 text-white py-4">
           <i class="fa-solid fa-paper-plane"></i> Send a Direct Message
         </button>

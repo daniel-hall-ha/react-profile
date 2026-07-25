@@ -12,7 +12,7 @@ function NavBar() {
     <div className="fixed w-full px-8 py-5 bg-white flex justify-between items-center shadow-sm text-gray-700">
       <div>
         <p className="text-xs">Hello World! My name is ...</p>
-        <h1 className="text-xl font-bold">Htet Aung (Daniel Hall)</h1>
+        <h1 className="text-xl font-bold flex sm:flex-row flex-col"><span>Htet Aung&nbsp;</span><span>(Daniel Hall)</span></h1>
       </div>
 
       <div className="absolute left-1/2 -translate-x-1/2 hidden lg:block">
@@ -30,7 +30,7 @@ function NavBar() {
       </div>
 
       <div className="w-fit h-fit flex flex-row items-center gap-12">
-        <button className="m-0 px-4 py-2 bg-white-500 border border-gray-800 hover:bg-gray-800 hover:text-white text-gray text-sm rounded-md cursor-pointer">
+        <button className="m-0 px-4 py-2 bg-white-500 border border-gray-800 hover:bg-gray-800 hover:text-white text-gray text-xs rounded-md cursor-pointer">
           Download CV
         </button>
         <i class="fa-solid fa-moon"></i>
