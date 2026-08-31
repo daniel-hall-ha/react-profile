@@ -26,10 +26,6 @@ function Footer() {
             <i class="fa-solid fa-envelope"></i>
             <p>ha.danielhall@gmail.com</p>
         </div>
-        <div className="flex items-center gap-6 cursor-pointer">
-            <i class="fa-solid fa-address-card"></i>
-            <p>Address</p>
-        </div>
         <div className="flex items-center gap-6 cursor-pointer" onClick={() => ExternalLinkHandler("phone","+959791686984")}>
             <i class="fa-solid fa-phone"></i>
             <p>+959-791-686-984</p>

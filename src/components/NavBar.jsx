@@ -16,7 +16,7 @@ function NavBar() {
     });
   }
   return (
-    <div className="fixed w-full px-8 py-5 bg-white dark:bg-gray-900 flex justify-between items-center shadow-sm dark:shadow-gray-950 text-gray-700 dark:text-white">
+    <div className="fixed w-full px-8 py-5 bg-white dark:bg-gray-900 flex justify-between items-center shadow-sm dark:shadow-gray-950 text-gray-700 dark:text-white z-90">
       <div>
         <p className="text-xs">Hello World! My name is ...</p>
         <h1 className="text-xl font-bold flex sm:flex-row flex-col">

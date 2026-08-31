@@ -2,7 +2,7 @@ import ExternalLinkHandler from "../handlers/ExternalLinkHandler";
 
 function PortfolioCard({ item }) {
   return (
-    <div className="w-80 h-120 sm:w-110 rounded-xl overflow-hidden flex flex-col bg-gray-500 dark:bg-gray-700 text-white mt-5 transition-transform duration-200 ease-in-out hover:-translate-y-1">
+    <div className="w-80 h-120 sm:w-110 rounded-xl overflow-hidden flex flex-col bg-gray-500 dark:bg-gray-700 text-white mt-5 transition-transform duration-200 ease-in-out hover:-translate-y-1 hover:z-0">
       <div className="h-1/2 w-full overflow-hidden">
         <img src={item.img_url} className="w-full"></img>
       </div>
