@@ -2,6 +2,7 @@
   {
     "id": 2,
     "school_name": "University of the People",
+    "program": "Bachelor of Computer Science",
     "start_date": "Apr 2026",
     "end_date": "",
     "status": "Ongoing",
@@ -19,6 +20,7 @@
   {
     "id": 1,
     "school_name": "University of Information Technology",
+    "program": "Computer Science",
     "status": "Unfinished",
     "start_date": "Dec 2018",
     "end_date": "Mar 2020",
@@ -48,6 +50,7 @@
   {
     "id": 3,
     "school_name": "Highschool Matriculation",
+    "program": "High School",
     "date": "Feb 2018",
     "status": "Finished",
     "transcript": {
