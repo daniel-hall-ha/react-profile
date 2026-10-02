@@ -7,7 +7,7 @@ import { on_load as experience_load } from "../redux/experienceSlice"
 function FetchData(endpoint) {
     return async function (dispatch) {
         try {
-            const response = await fetch(`/api/${endpoint}`)
+            const response = await fetch(`/src/${endpoint}`)
             if (!response.ok)
                 throw new Error("Failed to fetch data");
             const results = await response.json()
