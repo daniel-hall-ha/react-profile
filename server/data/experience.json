@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "company_name": "Brillar",
+        "company_url": "https://www.brillar.io",
+        "start_date": "Apr 2023",
+        "end_date": "Feb 2025",
+        "status": "Resigned",
+        "title": "Test Automation Engineer",
+        "tech_stack": [
+            "Tricentis Tosca",
+            "Playwright",
+            "JavaScript",
+            "REST API Testing",
+            "CI/CD",
+            "Manual Testing",
+            "Functional Testing",
+            "API Testing",
+            "Product Analysis",
+            "Market Research",
+            "AI Dataset Validation",
+            "Content Validation"
+        ],
+        "projects": [
+            {
+                "name": "SCRIPS Payment System by NETS",
+                "from": "2023",
+                "to": "2024",
+                "role": "Automation & Quality Engineer",
+                "work_mode": "On-site",
+                "responsibilities": [
+                    "Developed and executed automated test cases using Tricentis Tosca and Playwright.",
+                    "Designed and maintained robust validation suites for UI, functional, and API testing.",
+                    "Built reusable automation frameworks to improve testing efficiency and maintainability.",
+                    "Monitored automated test execution through CI/CD pipelines and analyzed test reports.",
+                    "Created dashboards to visualize automation results and monitor system quality.",
+                    "Collaborated with developers and business stakeholders to ensure product quality throughout the software development lifecycle."
+                ]
+            },
+            {
+                "name": "Atenxion AI",
+                "from": "2024",
+                "to": "2025",
+                "role": "Senior Quality Assurance Analyst",
+                "work_mode": "On-site",
+                "responsibilities": [
+                    "Designed and executed functional, API, and content validation test scenarios.",
+                    "Prepared, validated, and maintained datasets used for AI model evaluation.",
+                    "Verified AI-generated outputs for quality, consistency, and accuracy.",
+                    "Collaborated with AI engineers to improve model performance through structured quality assurance processes.",
+                    "Ensured data integrity and maintained testing documentation throughout the project lifecycle."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "company_name": "Sixtechz",
+        "company_url": "https://www.sixtechz.io",
+        "start_date": "Oct 2025",
+        "end_date": "",
+        "status": "Employed",
+        "title": "Junior Operation Engineer",
+        "tech_stack": [
+            "Laravel",
+            "PHP",
+            "React",
+            "JavaScript",
+            "Postgres",
+            "Linux",
+            "Bash",
+            "Git",
+            "REST API",
+            "Server Monitoring",
+            "Incident Management",
+            "Production Support"
+        ],
+        "projects": [
+            {
+                "name": "ATOM Pay",
+                "from": "2025",
+                "to": "Present",
+                "role": "Part-Time Junior Operation Engineer",
+                "work_mode": "Remote",
+                "responsibilities": [
+                    "Monitored and maintained production servers to ensure high availability, reliability, and operational stability.",
+                    "Investigated and resolved production incidents through log analysis, troubleshooting, and root cause identification.",
+                    "Developed and maintained internal application features, enhancements, and bug fixes using Laravel, React, and PHP.",
+                    "Created and maintained Bash scripts to automate operational tasks, deployments, and routine maintenance processes.",
+                    "Monitored application logs, server performance, and system resources to proactively detect and resolve operational issues.",
+                    "Supported API integrations, deployment activities, environment configuration, and production releases.",
+                    "Collaborated with software engineers, QA engineers, and cross-functional teams to deliver secure, stable, and reliable payment services.",
+                    "Participated in incident response and operational support to minimize downtime and improve service reliability."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Junior Full Stack Engineer",
+        "company_name": "Sixtechz",
+        "company_url": "https://www.linkedin.com/company/six-techz",
+        "start_date": "Sep 2026",
+        "end_date": "Current",
+        "status": "Employed",
+        "tech_stack": [
+            "React",
+            "TypeScript",
+            "Node.js",
+            "Next.js",
+            "Tailwind CSS",
+            "Prisma",
+            "Postgres",
+            "Playwright"
+        ],
+        "projects": [
+            {
+                "name": "FlashCare",
+                "from": "Sep 2026",
+                "to": "Current",
+                "role": "Full Stack Engineer",
+                "work_mode": "Part-Time",
+                "responsibilities": [
+                    "Developed full-stack features for FlashCare (Next.js, NestJS, Prisma, PostgreSQL) across clinical visits, patients, and inventory operations.",
+                    "Improved Visit detail UX (tabs, banners, modals, vitals, consultation) with TypeScript, standard form styling, and English/Burmese/Chinese translations.",
+                    "Maintained API and database changes under RBAC, audit, and inventory-ledger rules; supported migrations, seeding, and Render/Neon releases.",
+                    "Troubleshot defects and collaborated with the team to ship stable, permission-aware hospital workflows.",
+                    "Collaborated with product and engineering to turn business rules into usable screens for hospital staff, keeping permission checks and sensitive patient history behind backend authorization.",
+                    "Wrote and ran lint, unit/integration tests, and feature verification so stock-changing and clinical flows stayed consistent before release."
+                ]
+            }
+        ]
+    }
+]

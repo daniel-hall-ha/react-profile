@@ -130,6 +130,10 @@
             {
                 "name": "Bash",
                 "icon": "fa-solid fa-terminal"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "fa-brands fa-typescript"
             }
         ]
     },
