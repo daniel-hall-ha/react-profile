@@ -13,7 +13,7 @@ const FONT_HREF =
   "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap";
 
 async function fetchJson(endpoint) {
-  const response = await fetch(`/api/${endpoint}`);
+  const response = await fetch(`./data/${endpoint}`);
   if (!response.ok) {
     throw new Error(`Failed to fetch ${endpoint} data`);
   }
