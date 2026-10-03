@@ -38,6 +38,12 @@
                 "icon": "fa-solid fa-server"
             },
             {
+                "name": "Next.js"
+            },
+            {
+                "name": "Nest.js"
+            },
+            {
                 "name": "Laravel",
                 "icon": "fa-brands fa-laravel"
             },
