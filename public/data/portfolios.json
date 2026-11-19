@@ -14,5 +14,13 @@
     "repo_url": "https://github.com/daniel-hall-ha/conference-expense-planner.git",
     "site_url": "",
     "img_url": "/test.avif"
+  },
+  {
+    "id": 3,
+    "name": "Talent Management System",
+    "description": "A responsive full stack application built to manage talents in agency business.",
+    "repo_url": "https://github.com/daniel-hall-ha/talent-management-system.git",
+    "site_url": "",
+    "img_url": "/test.avif"
   }
 ]
