@@ -1,8 +1,23 @@
+import { useState } from "react";
 import { useTheme } from "../providers/UseTheme";
+import { downloadCv } from "../utils/downloadCv";
 
 function NavBar() {
-
   const { theme, setTheme } = useTheme("light");
+  const [isDownloading, setIsDownloading] = useState(false);
+
+  async function handleDownloadCv() {
+    if (isDownloading) return;
+    setIsDownloading(true);
+    try {
+      await downloadCv();
+    } catch (error) {
+      console.error(error);
+      alert("Failed to download CV. Please try again.");
+    } finally {
+      setIsDownloading(false);
+    }
+  }
 
   function scrollingHandler(event) {
     const element = document.getElementById(
@@ -53,8 +68,12 @@ function NavBar() {
       </div>
 
       <div className="w-fit h-fit flex flex-row items-center gap-6">
-        <button className="m-0 px-4 py-2 bg-white-500 border border-gray-800 hover:bg-gray-800 hover:text-white text-sm rounded-md cursor-pointer">
-          Download CV
+        <button
+          className="m-0 px-4 py-2 bg-white-500 border border-gray-800 hover:bg-gray-800 hover:text-white text-sm rounded-md cursor-pointer disabled:opacity-60 disabled:cursor-wait"
+          onClick={handleDownloadCv}
+          disabled={isDownloading}
+        >
+          {isDownloading ? "Preparing…" : "Download CV"}
         </button>
         <button className="p-2 w-fit h-fit border border-gray-800 hover:bg-gray-800 hover:text-white text-sm rounded-md cursor-pointer dark:border-white dark:bg-gray-800 dark:text-white"
         onClick={() =>

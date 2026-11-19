@@ -38,6 +38,12 @@
                 "icon": "fa-solid fa-server"
             },
             {
+                "name": "Next.js"
+            },
+            {
+                "name": "Nest.js"
+            },
+            {
                 "name": "Laravel",
                 "icon": "fa-brands fa-laravel"
             },
@@ -130,6 +136,10 @@
             {
                 "name": "Bash",
                 "icon": "fa-solid fa-terminal"
+            },
+            {
+                "name": "TypeScript",
+                "icon": "fa-brands fa-typescript"
             }
         ]
     },
